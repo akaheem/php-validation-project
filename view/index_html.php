@@ -2,7 +2,7 @@
 include '../controller/index_php.php';
 
 session_start();  
-echo  "<pre>"; print_r($_SESSION);echo  "</pre>";
+// echo  "<pre>"; print_r($_SESSION);echo  "</pre>";
 // die();
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true )
 { 
